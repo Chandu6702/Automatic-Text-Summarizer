@@ -19,6 +19,7 @@ Features
 ->Responsive design for seamless user experience across devices
 
 
+
 Technologies Used
 
 •Python
@@ -34,6 +35,7 @@ Technologies Used
 •TensorFlow
 
 
+
 Usage:
 
 Enter the URL of a news article in the provided input field.
@@ -42,13 +44,18 @@ View the summarized article along with its sentiment analysis.
 Repeat the process for additional articles.
 
 
+
 Contributing:
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
+
+
 License:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
 Acknowledgements
 
