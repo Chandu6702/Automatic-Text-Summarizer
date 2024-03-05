@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-News Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Automatic Text Summarizer</h1>
+    <form method="POST" action="/">
+        <label for="article_url">Enter Article URL:</label>
+        <input type="text" name="article_url" id="article_url" placeholder="https://example.com">
+        <button type="submit">Summarize</button>
+    </form>
+</body>
+</html>

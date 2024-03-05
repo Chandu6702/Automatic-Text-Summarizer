@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarization Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+    <div class="bg">  
+        <h1>Summarization Result</h1>
+        <h2>Original Text:</h2>
+        <p>{{ original_text }}</p>
+        <h2>Summary:</h2> 
+        <p>{{ summary }}</p>
+        <h2>Sentiment:</h2> 
+        <p>{{ sentiment }}</p> 
+    </div>
+</body>
+</html>

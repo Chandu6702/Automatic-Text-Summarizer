@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75%;
+    align-content: space-around;
+    margin: 20px 170px;
+    background-image: url(https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/07/how-to-write-a-summary.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg{
+    background-color: #00000082;
+    width: 100%;
+    max-width: 2000px;
+    padding: 10px;
+    border:5px solid #0000005e;
+    border-radius: 5px;
+}
+h1,h2 {
+    font-weight: bold;
+    color: beige;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color:white;
+}
+
+
